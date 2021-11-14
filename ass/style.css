@@ -1,0 +1,602 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  margin: 0px 50px;
+  overflow: auto;
+}
+.left-side {
+  width: 50%;
+  padding: 15px 0;
+  float: left;
+}
+.right-side {
+  padding: 15px;
+  width: 40%;
+  float: left;
+}
+.left-side span {
+  color: gray;
+}
+.left-side a {
+  text-decoration: none;
+  color: black;
+}
+.margin {
+  position: relative;
+}
+.icon {
+  margin-left: 300px;
+  left: 50%;
+}
+.right-side li {
+  list-style: none;
+  float: left;
+  margin-right: 15px;
+}
+.right-side li a:hover {
+  transition: 0.5s;
+  font-size: 17px;
+  color: #fec307;
+}
+.right-side li a {
+  color: #333;
+}
+.button a {
+  text-decoration: none;
+  color: black;
+}
+.button {
+  float: left;
+  padding: 20px 35px;
+  font-family: "Lato", sans-serif;
+  border: none;
+  background-color: #ffe700;
+}
+.button:hover {
+  transition: 0.5s;
+  background-color: #fec307;
+}
+
+#nav {
+  margin: 0px 50px;
+  height: 800px;
+  position: relative;
+  background-image: url(https://code.edu.az/media/slider/Programming.jpg);
+  max-width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+}
+
+/* #slider {
+  width: 1000px;
+  height: 300px;
+  border: 1px solid #ccc;
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+}
+#slider .slider-content {
+  width: 500%;
+  position: absolute;
+  left: 0%;
+  animation: alide 10s infinite;
+}
+.slider-item {
+  width: 20%;
+  float: left;
+}
+@keyframes slide {
+  0% {
+    transform: translateX(0px);
+  }
+  10% {
+    transform: translateX(-500px);
+  }
+  20% {
+    transform: translateX(-500px);
+  }
+  30% {
+    transform: translateX(-1000px);
+  }
+  40% {
+    transform: translateX(-1000px);
+  }
+  50% {
+    transform: translateX(-1500px);
+  }
+  60% {
+    transform: translateX(-1500px);
+  }
+  70% {
+    transform: translateX(-2000px);
+  }
+  80% {
+    transform: translateX(-2000px);
+  }
+  90% {
+    transform: translateX(0px);
+  }
+} */
+.navigation {
+  position: absolute;
+  left: 150px;
+}
+#nav li {
+  float: left;
+  list-style: none;
+  margin-left: 100px;
+  padding: 15px 0;
+  color: #fff;
+  font-family: "Lato", sans-serif;
+}
+#education {
+  margin: 100px 100px;
+  height: 800px;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 0 12px;
+}
+.col-6 {
+  width: calc(100% / 12 * 6);
+  height: 250px;
+}
+.col-3 {
+  width: calc(100% / 12 * 3);
+  height: 250px;
+  border: 1px solid gray;
+  position: relative;
+}
+.col-3 h2 {
+  position: absolute;
+  bottom: 30px;
+  left: 50px;
+  font-size: 20px;
+}
+.bold {
+  display: block;
+  font-size: 50px;
+  color: #323232;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  line-height: 1.04;
+  margin-bottom: 0;
+}
+.light {
+  margin-top: -15px;
+  display: block;
+  font-size: 50px;
+  color: gray;
+}
+.title .content {
+  margin-top: 25px;
+  margin-bottom: 50px;
+  width: 400px;
+}
+.row a {
+  color: black;
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+}
+.col-3:hover {
+  transform: scale(1.1);
+  box-shadow: 0 22px 33px 0 rgb(0 0 0 / 16%);
+  z-index: 1;
+  border: none;
+  transition: 0.5s;
+}
+.linkler-1:hover {
+  background-color: #dc3545;
+}
+.linkler-2:hover {
+  background-color: #bd1e72;
+}
+.linkler-3:hover {
+  background-color: orange;
+}
+.linkler-4:hover {
+  background-color: blue;
+}
+.linkler-5:hover {
+  background-color: #fec307;
+}
+.linkler-6:hover {
+  background-color: green;
+}
+.linkler-7:hover {
+  background-color: orange;
+}
+
+#banner {
+  height: 450px;
+  background-image: url(./img/02.jpg);
+  position: relative;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+}
+.bannerdiv {
+  margin: 0 50px;
+  position: absolute;
+  top: 200px;
+  left: 190px;
+}
+
+.one {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.94;
+  text-align: center;
+  padding: 0 50px;
+  color: #323232;
+  display: table;
+  background-color: #fff;
+  margin: 0 auto;
+}
+.second {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.94;
+  text-align: center;
+  padding: 0 50px;
+  color: #323232;
+  display: table;
+  background-color: #fff;
+  margin: 0 auto;
+  margin-top: -10px;
+  border: 4px solid #323232;
+}
+
+.col-12 {
+  width: calc(100% / 12 * 12);
+}
+
+#whycode {
+  padding: 0 50px;
+  height: 800px;
+}
+
+#whycode .container {
+  height: 800px;
+  margin: 40px;
+}
+#whycode .title h1 {
+  font-size: 50px;
+}
+#whycode .title {
+  width: 50%;
+  position: relative;
+}
+#whycode h1 span {
+  display: block;
+  font-weight: 100;
+  color: #323232;
+}
+#whycode .title::after {
+  content: "";
+  width: 100px;
+  height: 3px;
+  background: linear-gradient(to left, #793293, #febe10, #06a95c, #f06022);
+  position: absolute;
+  top: 70%;
+  left: 0;
+}
+.description {
+  margin-top: 50px;
+  color: #323232;
+}
+#whycode .bes {
+  width: calc(100% / 12 * 5);
+  float: left;
+  height: 200px;
+}
+#whycode .yeddi {
+  width: calc(100% / 12 * 7);
+  float: left;
+  height: 200px;
+  padding: 40px;
+}
+#whycode .img-bes img {
+  max-width: 100%;
+}
+#whycode .yeddi h3 {
+  margin-bottom: 30px;
+}
+#whycode .col-6 {
+  width: calc(100% / 12 * 6);
+  height: 250px;
+  margin-top: 30px;
+}
+#whycode .row-why a {
+  text-decoration: none;
+  color: #323232;
+}
+#whycode .row-why .col-6:hover {
+  box-shadow: 0 22px 33px 0 rgb(0 0 0 / 16%);
+  z-index: 1;
+  border: none;
+  transition: 0.5s;
+}
+
+#academic {
+  margin: 100px 50px;
+  height: 400px;
+}
+.partners {
+  text-align: center;
+}
+.partners span {
+  display: block;
+  font-size: 50px;
+  color: gray;
+}
+.partners .part {
+  font-size: 55px;
+  margin-top: -20px;
+  letter-spacing: -1.2px;
+  color: #323232;
+}
+.partners p {
+  margin: 30px auto;
+  max-width: 500px;
+  color: #323232;
+  font-weight: 400;
+}
+.parag {
+  position: relative;
+}
+.parag::after {
+  content: "";
+  width: 100px;
+  height: 2px;
+  background: linear-gradient(to left, #793293, #febe10, #06a95c, #f06022);
+  position: absolute;
+  top: 157%;
+  left: 46%;
+}
+
+.col-4 {
+  width: calc(100% / 12 * 4);
+}
+.autodesk {
+  margin: 30px;
+  transition: 0.5s;
+}
+.autodesk img {
+  margin: 30px;
+  height: 100%;
+  object-fit: contain;
+  filter: grayscale(100%);
+  transition: 0.5s;
+}
+
+.autodesk img:hover {
+  filter: grayscale(0%);
+}
+.headerr p {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 421px;
+  max-width: 500px;
+  font-weight: 400;
+  color: gray;
+  font-size: 17px;
+}
+.headerr h2 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Anton", sans-serif;
+  font-family: "Lato", sans-serif;
+  color: #323232;
+}
+.headerr a {
+  padding-left: 43%;
+  display: block;
+  text-decoration: none;
+  color: #323232;
+  font-weight: bold;
+  position: relative;
+}
+#future {
+  padding: 100 px 0;
+  height: 300px;
+}
+
+.underline::after {
+  content: "";
+  width: 185px;
+  height: 2px;
+  background: linear-gradient(to left, #793293, #febe10, #06a95c, #f06022);
+  position: absolute;
+  top: 157%;
+  left: 43%;
+}
+#question {
+  padding: 0 100px;
+  height: 500px;
+  background-image: url(./img/Sualiniz-var_c3Xp8Bz.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: right;
+  position: relative;
+  background-color: #f4f5f8;
+}
+#question span {
+  display: block;
+  font-size: 40px;
+}
+#question .come {
+  font-size: 50px;
+  margin-left: 45px;
+}
+#question p {
+  margin-left: 50px;
+  margin-top: 35px;
+  width: 380px;
+}
+.info {
+  padding-top: 60px;
+  width: 430px;
+  float: left;
+}
+.cont {
+  height: 500px;
+}
+.form {
+  width: 500px;
+  float: left;
+  margin-top: 60px;
+}
+.input-1 {
+  width: 220px;
+  height: 50px;
+  margin-right: 25px;
+  border: none;
+  padding-left: 15px;
+}
+.input-1:focus {
+  outline: none;
+  border: 1px solid yellow;
+}
+.input-2 {
+  width: 220px;
+  height: 50px;
+  border: none;
+  padding-left: 15px;
+}
+.input-2:focus {
+  outline: none;
+  border: 1px solid yellow;
+}
+.select {
+  margin-top: 40px;
+}
+.select:focus {
+  outline: none;
+  border: 1px solid yellow;
+}
+#sel {
+  height: 50px;
+  width: 150px;
+  border: none;
+  float: left;
+  padding-left: 15px;
+}
+.input-3 {
+  width: 323px;
+  height: 50px;
+  border: none;
+}
+.input-3:focus {
+  outline: none;
+  border: 1px solid yellow;
+}
+.select2 {
+  margin-top: 40px;
+}
+#select-2 {
+  height: 50px;
+  width: 474px;
+  border: none;
+  padding-left: 15px;
+}
+.but {
+  margin-top: 40px;
+  background-color: #ffe700;
+  height: 50px;
+  padding: 15px 0 0 0;
+  text-align: center;
+  width: 474px;
+}
+
+.but a {
+  display: block;
+  text-decoration: none;
+  height: 100%;
+  color: #323232;
+}
+#first {
+  height: 400px;
+  padding: 0 50px;
+  margin-top: 100px;
+}
+.first-div {
+  height: 400px;
+  width: 100%;
+}
+.uc {
+  width: 33.3333%;
+  float: left;
+  height: 300px;
+}
+.akademiya {
+  list-style: none;
+  margin-top: 10px;
+}
+.akademiya li {
+  margin-top: 20px;
+  margin-left: 110px;
+}
+.akademiya a {
+  text-decoration: none;
+  color: #323232;
+}
+.firstchild {
+  font-size: 20px;
+  font-weight: bold;
+}
+#second {
+  height: 80px;
+  background-color: #f4f5f8;
+  padding: 30px;
+}
+#second div {
+  text-align: center;
+}
+#second div a {
+  text-decoration: none;
+  color: #323232;
+  font-weight: bold;
+}
+#third {
+  padding: 40px;
+}
+.thirdd span {
+  display: block;
+  margin-top: 45px;
+  color: gray;
+}
+
+.thirdd {
+  width: 33.3333%;
+  height: 100px;
+  float: left;
+  text-align: center;
+}
+.sekil img {
+  height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+  margin-top: 30px;
+}
+.sekil {
+  width: 165 px;
+  height: 50 px;
+}
+.iconlar li {
+  list-style: none;
+  float: left;
+  margin-top: 30px;
+  margin-left: 40px;
+}
+.iconlar i {
+  color: #323232;
+}
